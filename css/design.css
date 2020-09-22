@@ -1,4 +1,46 @@
 @charset "utf-8";
 body {
-    font-family:;
+    font-family:Verdana,"굴림";
+    font-size:16px;
+    background-image:url("../images/bg.gif");
+    background-repeat:repeat-x;   /*가로로만 반복 적용*/
+    background-position:0 0;
+}
+.notext {
+    display:none;
+}
+.aside ul {
+    list-style: none;
+}
+.wrapper {
+    max-width:860px;
+    margin:0 auto;
+}
+#header {
+    height:380px;
+}
+#header .cf_video {
+    width:640px;
+    float:left;
+}
+.cf_video video {
+    width:640px;
+    height:380px;
+}
+#header .logo {
+    width:25.58139534883721%;
+    float:right;
+}
+#list li {
+    width:50%;
+    float:left;
+}
+#list li p {
+    line-height:125px;
+    text-align:center;
+}
+/* 카카오 지도 2020.09.22 */
+#map {
+    width:860px;
+    height:640px;
 }
