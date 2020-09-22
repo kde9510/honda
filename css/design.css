@@ -20,7 +20,7 @@ body {
     height:380px;
 }
 #header .cf_video {
-    width:640px;
+    width:640;
     float:left;
 }
 .cf_video video {
